@@ -7,9 +7,40 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Build outputs
 dist
 dist-ssr
+build/Release
+
+# Dependency directories
+node_modules
+jspm_packages
+bower_components
+web_modules
+
+# Tool caches
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+
+# Environment and local files
+.env
+.env.*
 *.local
 
 # Editor directories and files
